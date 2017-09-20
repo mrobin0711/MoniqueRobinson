@@ -1,0 +1,25 @@
+html {background-color: #FFE}
+h1 {font-size: 30px; 
+	color: black;
+}
+
+img {border: 3px solid black; height: 175px; width: 325px
+}
+
+h2 {font-size: 14px; color: #8D8D7C; font-weight: bold; font-style: italic; font-style: bold;}
+
+h3 {font-size: 20px;}
+
+div {font-size: 13px}
+
+h4 {font-size: 20px;}
+
+h5 {font-size: 20px;}
+
+li {font-size: 13px;}
+
+h6 {font-size: 14px; color: #8D8D7C; font-weight: bold; font-style: italic; font-style: bold;}
+
+a {color: #900;}
+
+body {border: 3px solid black; padding-left: 30px}
