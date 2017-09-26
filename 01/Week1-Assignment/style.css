@@ -1,0 +1,20 @@
+body {border-bottom: solid;border-top: solid}
+
+#navheader ul li {list-style-type: none; margin: 0; padding: 0; display: inline;}
+
+#navfooter ul li {list-style-type: none; margin: 0; padding: 0; display: inline;}
+
+#navheader ul li:after {content: "|";}
+
+#navfooter ul li:after {content: "|"}
+
+ul li a {margin: 8px;}
+
+#navheader ul {text-align: center;}
+
+#navfooter ul {text-align: center;}
+
+h1 {border-bottom-style: solid;border-bottom-color: grey;
+ text-align: center;}
+
+ img {align-content: right;}

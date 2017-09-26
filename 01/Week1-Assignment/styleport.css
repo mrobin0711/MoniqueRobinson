@@ -1,0 +1,21 @@
+
+body {background-color: #F6F6F6; border-top: solid; border-bottom: solid;}
+
+
+#navheader ul li {list-style-type: none; margin: 0; padding: 0; display: inline;}
+
+#navfooter ul li {list-style-type: none; margin: 0; padding: 0; display: inline;}
+
+#navheader ul li:after {content: "|";}
+
+#navfooter ul li:after {content: "|"}
+
+ul li a {margin: 8px;}
+
+#navheader ul {text-align: center; color:#05080C;}
+
+#navfooter ul {text-align: center; color:#05080C;}
+
+h1 {text-align: center;}
+
+h1 {border-bottom: solid;}
