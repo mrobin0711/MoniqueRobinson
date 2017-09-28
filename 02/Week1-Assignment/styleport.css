@@ -1,21 +1,100 @@
 
-body {background-color: #F6F6F6; border-top: solid; border-bottom: solid;}
+body {
+	border-bottom: solid;
+	border-bottom-width: thick;
+	border-top: solid;
+	border-top-width: thick;
+	margin: 27px;
+	font-family: Arial;
+	padding-bottom: 80px;
+    padding-top: 10px;
+    background-color: #F6F6F6;
+}
 
 
-#navheader ul li {list-style-type: none; margin: 0; padding: 0; display: inline;}
+#navheader ul li {
+	display: inline;
+	font-weight: bold;
+}
 
-#navfooter ul li {list-style-type: none; margin: 0; padding: 0; display: inline;}
+#navfooter ul li {
+	display: inline;
+	font-weight: bold;
+}
 
-#navheader ul li:after {content: "|";}
+#navheader ul li:after {
+	content: "|";
+}
 
-#navfooter ul li:after {content: "|"}
+#navfooter ul li:after {
+		content: "|";
+}
 
-ul li a {margin: 8px;}
+ul li a {
+	margin: 8px;
+	color: #05080C;
+}
 
-#navheader ul {text-align: center; color:#05080C;}
+#navheader ul {
+	margin: 14px 50px -19px 361px;
+	color:#05080C;
+}
 
-#navfooter ul {text-align: center; color:#05080C;}
+#navfooter ul {
+	text-align: center; 
+	color:#05080C;
+	margin: 28px 0px -40px 0px;
+}
 
-h1 {text-align: center;}
+h1 {
+	text-align: center;
+	font-size: 38px;
+}
 
-h1 {border-bottom: solid;}
+h2 {
+	font-weight: bold;
+	font-size: 20px;
+	margin-left: 28px;
+}
+
+span {
+	font-style: italic;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 16px;
+	margin: 40px 0px 28px 28px;
+	text-transform: uppercase;
+}
+
+h4 {
+	font-size: 16px;
+	margin: 32px 0px 28px 28px;
+	text-transform: uppercase;
+}
+
+img {
+	border: solid black;
+    border-width: 1px;
+    padding: 5px;
+    height: 367px;
+    width: 500px;
+    margin: 20px 5px 30px 19px;
+}
+
+dl {
+	margin: 5px 0px 5px 0px;
+}
+
+hr {
+	margin: 26px 52px 0px 28px;
+}
+
+p {
+	margin: 0px 35px 0px 28px;
+}
+
+#schools ul {
+	margin-left: 23px;
+}
