@@ -1,0 +1,314 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"o",
+				"ol\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/Monique/Sites/moniquerobinson/04/04_layout/starter_code/layout-three-column/index.html",
+			"settings":
+			{
+				"buffer_size": 179,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Monique/Sites/moniquerobinson/04/04_layout/starter_code/layout-three-column/style.css",
+			"settings":
+			{
+				"buffer_size": 0,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "package",
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Monique/Sites/moniquerobinson/04/04_layout/starter_code/layout_challenge"
+	],
+	"file_history":
+	[
+		"/Users/Monique/Sites/moniquerobinson/04/04_layout/starter_code/layout_challenge/style.css",
+		"/Users/Monique/Sites/moniquerobinson/04/04_layout/starter_code/layout_challenge/index.html",
+		"/Users/Monique/Sites/moniquerobinson/04/04_layout/starter_code/error_message/css/style.css",
+		"/Users/Monique/Sites/moniquerobinson/04/04_layout/starter_code/error_message/index.html",
+		"/Users/Monique/Sites/GA-FEWD/Week_02_Styling/03_box_model/README.md",
+		"/Users/Monique/Sites/moniquerobinson/02/Week1-Assignment/styleport.css",
+		"/Users/Monique/Sites/moniquerobinson/02/Week1-Assignment/portfolio.html",
+		"/Users/Monique/Sites/moniquerobinson/03/homework/css/reset.css",
+		"/Users/Monique/Sites/moniquerobinson/03/homework/css/normalize.css",
+		"/Users/Monique/Sites/moniquerobinson/03/homework/css/style.css",
+		"/Users/Monique/Sites/moniquerobinson/03/homework/index.html",
+		"/Users/Monique/Sites/moniquerobinson/03/nested_selectors/css/style.css",
+		"/Users/Monique/Sites/moniquerobinson/03/nested_selectors/index.html",
+		"/Users/Monique/Sites/moniquerobinson/01/Week1-Assignment/style.css",
+		"/Users/Monique/Sites/moniquerobinson/01/Week1-Assignment/index.html",
+		"/Users/Monique/Sites/moniquerobinson/01/Cookie-lab/style.css",
+		"/Users/Monique/Sites/moniquerobinson/01/Cookie-lab/cookieindex.html",
+		"/Users/Monique/Sites/GA-FEWD/Week_01_Basics/Assignment/solution/README.md",
+		"/Users/Monique/Sites/GA-FEWD/Week_01_Basics/02_css_basics/solution/README.md",
+		"/Users/Monique/Sites/moniquerobinson/01/Cookie-lab/cookiestyle.css",
+		"/Users/Monique/Sites/moniquerobinson/01/ga-press-release/index.html",
+		"/Users/Monique/Desktop/index.html"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/Monique/Sites/moniquerobinson/04/04_layout/starter_code/layout-three-column/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 179,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								146,
+								146
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "/Users/Monique/Sites/moniquerobinson/04/04_layout/starter_code/layout-three-column/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 102.0
+	},
+	"pinned_build_system": "",
+	"project": "untitled.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 224.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

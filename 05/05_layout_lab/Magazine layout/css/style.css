@@ -1,0 +1,112 @@
+*	{
+	box-sizing: border-box;
+	min-height: 50px;	
+	margin: 0;
+	padding: 0;	
+}
+
+body * {
+	
+}
+
+
+header {
+	overflow: hidden;
+	padding: 10px;
+}
+
+h1,
+li,
+aside,
+#row1,
+section.left,
+aside.right,
+.col1,
+.col2,
+.col3,
+.col4,
+footer {
+	background: grey;
+}
+
+header #logo {
+	float: left;
+	min-width: 150px;
+	margin: 0;
+}
+
+header nav {
+	float: right;
+	padding-top: 10px;
+}
+
+header nav ul li {
+	float: left;
+	min-width: 30px;
+	min-height: 20px;
+	list-style: none;
+	margin-right: 10px;
+}
+
+#columnWrapper {
+	overflow: hidden;
+	margin: 0 10px; 
+}
+
+#row2 .left {
+	width: 74.875%;
+	margin-right: .5%;
+	float: left;
+}
+
+#row2 .right {
+	width: 24.625%;
+	float: left;
+}
+
+#columnWrapper aside#mainSidebar {
+	width: 14%;
+	float: left;
+	margin-right: 1%;
+}
+
+#columnWrapper section#sectionWrapper {
+	width: 85%;
+	float: left;
+}
+
+#row1,
+#row2,
+#row3 {
+	margin-bottom: 10px;
+}
+
+/*********************/
+#row3 .col1 {
+	width: 24.625%;
+	margin-right: .5%;
+	float: left;
+}
+
+#row3 .col2 {
+	width: 24.625%;
+	margin-right: .5%;
+	float: left;
+}
+
+#row3 .col3 {
+	width: 24.625%;
+	margin-right: .5%;
+	float: left;
+}
+
+#row3 .col4 {
+	width: 24.625%;
+	float: left;
+}
+/****************************/
+
+footer {
+	margin-top: 10px;
+	margin: 0 10px; 
+}

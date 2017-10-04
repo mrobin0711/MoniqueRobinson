@@ -5,7 +5,7 @@ Author: Your Name
 Developer @GA in NYC
 */
 
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,600,800');
 /******************************************
 /* SETUP
 /*******************************************/
@@ -50,9 +50,90 @@ body {
      font-size: 12px;
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+
 }
+
+h1,
+h2 {
+  font-size: 24px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header,
+#sign-up,
+#footer {
+  text-align: center;
+}
+
+#container button {
+  background-color: #f9e42e;
+  border-radius: 5px;
+  color: #121212;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+#benefits p,
+#benefits ul li {
+  font-size: 13px;
+}
+
+h4 {
+  font-size: 18px;
+  text-align: center;
+}
+
+#sign-up button {
+  color: white;
+  background-color: #033048;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+#container {
+          background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+          background-size: cover;
+}
+
+#benefits {
+          background-color: #f0efef;
+}
+
+/*****************GOOGLE FONT HERE**************/
+#quote  {
+        background: url(../images/testimonial_bg.jpg);
+        background-size: cover;
+        color: white;
+      }
+#quote p {
+        font-weight: semibold 18px;
+
+}      
+/*****************GOOGLE FONT HERE**************/
+
+#sign-up  {
+          background-color: #f9e42e;
+
+}
+
+#footer {
+        background-color: #121212;
+        color: white;
+
+}
+#footer li {
+          display: inline;
+}
+
+
+#footer h6 {
+        color: #f9e42e;
+}
+
+
 
 
 /******************************************
@@ -79,6 +160,10 @@ footer {
 /* ADDITIONAL STYLES
 /*******************************************/
 
+h1, h2 {
+  font-family: 'Open Sans', sans-serif;
+
+}
 
 
 
