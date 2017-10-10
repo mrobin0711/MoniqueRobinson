@@ -1,0 +1,253 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,600,800')
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.blog:after {
+     content: ".";
+     display: block;
+     clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: 'Open Sans', sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/***********Header***********/
+
+header {
+  background-color: #033048;
+  height: 70px;
+  overflow: hidden;
+  padding: 15px 0px 0px 0px;
+  margin-bottom: 0px;
+}
+
+
+header h1 {
+  color: white;
+  padding: 0px 0px;
+  font-weight: 800;
+  font-size: 32px;
+  float: left;
+  margin: 2px 110px;
+  padding: 0px 0px;
+}
+
+header nav {
+  color: #f9e42e;
+  float: right;
+  margin-right: 50px;
+  padding-top: 15px;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+header nav ul li {
+  float: left;
+  padding-right: 42px;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+section {
+  padding: 75px 362px 56px 100px;
+  background-color: #f0efef;
+}
+
+
+#articles {
+    width: 700px;
+}
+
+article p {
+    font-size: 24px;
+    font-weight: 300;
+    color: #606060;
+}
+
+article p::first-letter {
+    float: left;
+    font-size: 300%;
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+article div {
+    text-align: right;
+    font-size: 24px;
+    font-weight: 600;
+    color: #033048;
+}
+
+article h3,
+article img,
+article p {
+    margin-bottom: 30px;
+}
+
+hr {
+    width: 100%;
+    background: #033048;
+    margin: 40px 0px 50px 0px;
+    border: 1px solid #033048;
+}
+
+aside {
+    width: 240px;
+    color: #033048;
+}
+
+#categories ul li a {
+    display: block;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+#about {
+    font-size: 22px;
+    line-height: 26px;
+}
+
+#about p {
+    font-weight: 300;
+}
+
+#about a {
+    font-weight: 600;
+}
+
+
+
+#categories,
+#about {
+    margin-bottom: 40px;
+    font-weight: 800;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #033048;
+}
+
+
+
+.blog {
+  clear: both;
+}
+
+.leftSide {
+  float: left;
+}
+
+.rightSide {
+  float: right;
+}
+
+h4 {
+  font-size: 32px;
+  font-weight: 800;
+  color: #033048;
+  margin-bottom: 20px;
+}
+
+#ad {
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+  color: #033048;
+}
+#sign-up  {
+  background-color: #f9e42e;
+  height: 90px;
+
+}
+
+#sign-up button {
+  color: white;
+  background-color: #033048;
+  border-radius: 3px;
+  font-size: 12px;
+  margin: 26px 15px;
+  padding: 13px 0px;
+  font-weight: 800;
+  border: none;
+  width: 190px;
+}
+
+footer {
+  font-size: 9px;
+  font-weight: 600;
+  padding: 10px 0 15px 0;
+}
+
+#footer {
+  background-color: #121212;
+  color: white;
+}
+
+#footer li {
+  display: inline;
+}
+
+
+#footer h6 {
+  color: #f9e42e;
+  font-weight: 800;
+  font-size: 32px;
+  padding: 38px 0 19px 0;
+}
+
+#footer img {
+  max-height: 25px;
+  width: auto;
+  padding: 9px 19px 11px 2px;
+}
+
+#sign-up,
+#footer {
+  text-align: center;
+}
+

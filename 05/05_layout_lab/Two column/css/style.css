@@ -1,0 +1,28 @@
+header,
+aside,
+section,
+footer {
+	background-color: red;
+	min-height: 100px;
+}
+
+header,
+.columns {
+	margin: 0px 0px 20px 0px;
+}
+
+.columns {
+	display: flex;
+	height: 300px;
+}
+
+aside {
+	float: left;
+	width: 75%;
+	margin-right: 2%;
+}
+
+section {
+	float: left;
+	width: 23%;
+}
