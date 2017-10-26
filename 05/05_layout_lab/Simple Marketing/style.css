@@ -1,0 +1,21 @@
+header,
+aside,
+section,
+footer {
+	background-color: red;
+	min-height: 100px;
+}
+
+header {
+	margin: 0px 0px 20px 0px;
+}
+
+
+#threeColumns,
+#twoColumns {
+	display: flex;
+}
+
+footer {
+	margin: 20px 0px;
+}
