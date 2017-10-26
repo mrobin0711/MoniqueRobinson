@@ -10,13 +10,12 @@ $(document).ready(function() {
 //Use $.on(submit) or $.click to figure out when the user clicks the "submit" button
 	
 
-	$('form').submit(function(inputCity) {
-		var inputField = $('input').val();
+	$('form').submit(function(event) {
+		//var inputField = $('input').val();
 
 //Store the value of id city-type in a variable called city
 //
-		var city = $('#city-type').attr('text');
-
+		var city = $('#city-type').val();
 
 
 //
@@ -30,6 +29,7 @@ $(document).ready(function() {
 	else if (city === 'San Francisco' || city === 'SF' || 'Bay Area') {
 		console.log(city);
 		$('body').css('background-image',"url('images/sf.jpg')");
+
 	}
 	
 	else if (city === 'Los Angeles' || city === 'LA' || 'LAX') {
