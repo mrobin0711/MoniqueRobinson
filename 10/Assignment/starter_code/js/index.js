@@ -8,13 +8,14 @@ $(document).ready(function() {
 //store the value of the html element input inside of the inputField variable
 
 //Use $.on(submit) or $.click to figure out when the user clicks the "submit" button
-	$("#submit-btn").click(function(event){
-   
-   event.preventDefault();	
+	
+
+	$('form').submit(function(inputCity) {
+		var inputField = $('input').val();
 
 //Store the value of id city-type in a variable called city
 //
-		var city = $("#city-type").val()
+		var city = $('#city-type').attr('text');
 
 
 
@@ -52,7 +53,7 @@ $(document).ready(function() {
 
 //Prevent a form submission using the event.preventDefault() function
 
-
+event.preventDefault();
 
 	});
 
