@@ -8,11 +8,24 @@ $(document).ready(function() {
 //store the value of the html element input inside of the inputField variable
 
 //Use $.on(submit) or $.click to figure out when the user clicks the "submit" button
+
+	var cities = [
+   	'NYC',
+   	'SF',
+   	'ATX',
+   	'LA',
+   	'SYD'
+ 	];
+
+  $(cities).each(function(i, cityName) {
+		$('select').append('<option value="'+cityName+'">'+cityName+'</option>');
+	});
+
+
 	
-
 	$("#submit-btn").click(function(event) {
-		var city = $('input').val();
-
+		var city = $('select').val();
+       
 //Store the value of id city-type in a variable called city
 //
 		$('body').attr('class','');
@@ -20,7 +33,7 @@ $(document).ready(function() {
 
 
 	if (city === 'New York' || city === 'NYC' || 'New York City') {
-		$('body').css('background-image',"url('images/nyc.jpg')");
+		$('body').addClass('nyc');
 
 
 	}

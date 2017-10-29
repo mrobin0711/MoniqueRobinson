@@ -4,15 +4,18 @@ $(".info").append("<img src='https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/
 //#2: How can you turn this into a function
 
 var myGroceryList = [
-'Milk'
-'Cookies'
-'Sugar'
-'Bananas'
-'Gatorade'
+'Milk',
+'Cookies',
+'Sugar',
+'Bananas',
+'Gatorade',
+'Oreos',
+'Wine'
 ];
 
 $(myGroceryList).each(function(i, item) {
 	console.log(item);
+	$('.groceryList').append('<li>'+item+'</li>');
 });
 
 
@@ -26,18 +29,21 @@ $(".list-items").prepend("<li>Gatorade</li>");
 //
 
 //#4: Combine jQuery Selectors
-$("#container").css("width","960px");
-$("#container").css("background","grey");
-$("#container").css("color","#fff");
-$("#container").css("font-size","14px");
-$("#container").css("box-shadow","0 0 10px #ccc");
+$("#container", "#main").css("width","960px");
+$("#container", "#main").css("background","grey");
+$("#container", "#main").css("color","#fff");
+$("#container", "#main").css("font-size","14px");
+$("#container", "#main").css("box-shadow","0 0 10px #ccc");
 
+/*
+$("#container", "#main").css({
+	"width": "960px",
+	"background": "grey",
+	"color": "#fff",
+	"font-size": "14px",
+	"box-shadow": "0 0 10px #ccc";
+})*/
 
-$("#main").css("width","960px");
-$("#main").css("background","grey");
-$("#main").css("color","#fff");
-$("#main").css("font-size","14px");
-$("#main").css("box-shadow","0 0 10px #ccc");
 
 
 //#4: How can we used muliple property: values in the css method?

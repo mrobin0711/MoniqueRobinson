@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sneaker List</title>
+
+	<style>
+		img {
+			max-width: 200px;
+		}
+		.sneakerImage,
+		.sneakerDescription {
+			width: 50%;
+			float: left;
+		}
+		.sneakerContainer {
+			overflow: hidden;
+		}
+	</style>
+</head>
+<body>
+		
+	<h1>Sneakers</h1>
+
+	<div class="sneakerList"></div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+		
+		$(document).ready(function(){
+			var sneakers = [{
+				title: 'BRED Retro 1',
+				price: 200,
+				image: 'https://www.flightclub.com/media/catalog/product/cache/1/image/1600x1140/9df78eab33525d08d6e5fb8d27136e95/6/3/63611743036-air-jordan-1-retro-high-og-bg-gs-bred-black-varsity-red-white-011846_1.jpg',
+				url: 'https://www.flightclub.com/air-jordan-1-retro-high-og-bg-gs-black-varsity-red-white-011846',
+				display: true
+			}, {
+				title: 'AIR JORDAN 12 RETRO "BORDEAUX"',
+				price: 225,
+				image: 'https://www.flightclub.com/media/catalog/product/cache/1/image/1600x1140/9df78eab33525d08d6e5fb8d27136e95/8/0/802153_1.jpg',
+				url: 'https://www.flightclub.com/air-jordan-12-retro-bordeaux-sail-metallic-sliver-802153',
+				display: false
+			}, {
+				title: 'YEEZY BOOST 350 V2 "ZEBRA"',
+				price: 835,
+				image: 'https://www.flightclub.com/media/catalog/product/cache/1/image/1600x1140/9df78eab33525d08d6e5fb8d27136e95/8/0/800502_1.jpg',
+				url: 'https://www.flightclub.com/yeezy-350-v2-white-cblack-red-800502',
+				display: true
+			}
+			];
+
+			$(sneakers).each(function(i, sneaker){
+				var sneakerTitle = sneaker.title;
+				var sneakerPrice = sneaker.price;
+				var sneakerImage = sneaker.image;
+				var sneakerUrl 	= sneaker.url;
+				var sneakerDisplay = sneaker.display;
+
+
+				if (sneakerDisplay){
+					$('.sneakerList').append('<div class="sneakerContainer"><div class="sneakerImage"><img src="'+sneakerImage+'" alt="imageName"></div><div class="sneakerDescription"><p>'+sneakerTitle+'</p><p>'+sneakerPrice+'</p><a href="'+sneakerUrl+'" target="_blank"><button>Purchase</button></a></div></div>');
+				}
+			});
+
+
+			//alert( $('.sneakerImage').find('img').attr('src') );
+
+
+
+			
+
+		});
+	</script>
+
+</body>
+</html>
