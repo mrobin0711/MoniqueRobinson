@@ -10,15 +10,14 @@ $(document).ready(function() {
 //Use $.on(submit) or $.click to figure out when the user clicks the "submit" button
 	
 
-	$('form').submit(function(event) {
-		//var inputField = $('input').val();
+	$("#submit-btn").click(function(event) {
+		var city = $('input').val();
 
 //Store the value of id city-type in a variable called city
 //
-		var city = $('#city-type').val();
+		$('body').attr('class','');
 
 
-//
 
 	if (city === 'New York' || city === 'NYC' || 'New York City') {
 		$('body').css('background-image',"url('images/nyc.jpg')");
