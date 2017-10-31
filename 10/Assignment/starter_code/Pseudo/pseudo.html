@@ -1,0 +1,74 @@
+1.When the user submits the form,
+2.get the input field value.
+
+
+Var cityType = input field value;
+
+3.if (cityType==="New York" || "New York City" || "NYC")
+
+
+then (change the background-color)
+	selector.style.background-color = "value";
+	$(selector).css("property","value")
+
+
+	stop the form from submitting
+
+
+**after each number, console.log
+
+
+images = [
+		'images/austin.jpg',
+		'images/la.jpg',
+		'images/nyc.jpg',
+		'images/sf.jpg',
+		'images/sydney.jpg',
+		'images/citpix_skyline.jpg'
+	];
+
+city = [
+		'New York',
+		'New York City',
+		'NYC',
+		'San Francisco',
+		'SF',
+		'Bay Area',
+		'Los Angeles',
+		'LA',
+		'LAX',
+		'Austin',
+		'ATX',
+		'Sydney',
+		'SYD'
+
+	];	
+ $(document).ready(function() {
+      $('form').submit(function(event) {
+        var inputField = $('input').val();
+
+        console.log(inputField);
+
+        event.preventDefault();
+      });
+    });
+
+
+------------------------------------------
+***if input = New York, New York City, or NYC;
+	make background-img = nyc.jpg
+
+***if input = San Francisco, SF, or Bay Area;
+	make background-img = sf.jpg
+
+***if input = Los Angeles, LA, or LAX;
+	make background-img = la.jpg
+
+***if input = Austin or ATX;
+	make background-img = austin.jpg
+
+***if input = Sydney or SYD;
+	make background-img = sydney.jpg
+
+***if input = none;
+	make background-img = citipix_skyline.jpg
