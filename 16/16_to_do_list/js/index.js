@@ -77,7 +77,7 @@ $(document).ready(function() {
 		}
 		//Clear the input field after clicking add to list
 		function clearInputField() {
-			console.log('gone');
+			
 		}
 
 });
