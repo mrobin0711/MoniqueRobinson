@@ -9,8 +9,8 @@
 }
 
 header {
-	background-color: #1c1c1b;
-	border-bottom: 2px solid #44e9e6;
+	background-color: #ffffff;
+	border-bottom: 2px solid #000;
 	height: auto;
 	overflow: hidden;
 	padding: 15px 0px 15px 0px;
@@ -19,11 +19,10 @@ header {
 
 header img {
 	padding: 0px 25px;
-	float: left;
 }
 
 header nav {
-	color: white;
+	color: #000;
 	margin-top: 60px;
 	margin-left: 25px;
 	padding-top: 6px;
@@ -61,7 +60,7 @@ header nav ul li.navTitle {
 /***********Hero***********/
 
 #hero {
-	background-image: url("../images/art1.png");
+	background-image: url("../images/home.png");
 	background-size: cover;
 	background-position: center;
 	height: 230px;
@@ -119,6 +118,8 @@ aside.box button {
 	padding-bottom: 25px;
 	width: auto;
 	background-color: darkgray;
+	margin-top: 50px;
+	height: 400px;
 
 } 
 
@@ -158,7 +159,7 @@ aside.box button {
 
 footer {
 	font-family: 'Padauk', sans-serif;
-	background-color: #1c1c1b;
+	background-color: #ffffff;
     min-height: 150px;
     padding: 24px 0px 0px 50px;
 
@@ -172,14 +173,14 @@ footer img {
 
 footer p {
 	font-size: 12px;
-	color: white;
+	color: #000;
 	margin: 2px 0px 5px 179px;
 }
 
 footer ul li,
 footer h5 {
 	list-style: none;
-	color: white;	
+	color: #000;	
 }
 
 footer ul {
@@ -217,30 +218,32 @@ header a {
 }
 
 header img {
-	padding: 0px 75px;
+	padding: 10px 0px 0px 569px;
 	
 }
 
 .hamburgerMenu {
-		display: none;
+	display: none;
 	}
 
 header nav {
-	color: white;
-	float: right;
+	color: #000;
 	margin-right: 50px;
 	margin-top: 20px;
 	padding-top: 6px;
 	display: inline;
+
 }
 
+header ul {
+    margin: 20px 0 -30px 383px;
+}
 header nav ul li {
-	float: left;
-	padding-right: 25px;
+	padding-right: 70px;
 }
 
 header nav ul li a {
-	color: white;
+	color: #000;
 	text-decoration: none;
 }
 
@@ -258,7 +261,9 @@ header nav ul li.navTitle {
 h1 {
 	font-family: 'Fugaz One', cursive;
 	font-size: 60px;
-	color: #db5587;
+	color: #000;
+	padding-bottom: 37px;
+
 
 }
 .blog:after {
@@ -316,6 +321,12 @@ article img {
 	margin-top: 11px;
 }
 
+article span:after {
+	content: "|";
+	padding: 10px;
+}
+
+
 article h3 {
 	font-family: 'Baloo Bhai', cursive;
 	font-size: 30px;
@@ -345,7 +356,8 @@ aside {
     font-size: 22px;
     line-height: 26px;
     margin-bottom: 40px;
-    font-weight: 800
+    font-weight: 800;
+    width: 240px;
 }
 
 #about p {
@@ -390,11 +402,13 @@ h3 {
 
 .leftSide {
   float: left;
+  padding-left: 35px;
 }
 
 .rightSide {
   float: right;
   margin-top: 66px;
+  padding-left: 160px;
 }
 
 h4 {
@@ -440,9 +454,10 @@ aside.box h2 {
 } 
 
 #threeColumns .column1 {
-	margin: 0px 15px;
+	margin: 0px 30px;
 	padding-bottom: 154px;
     border: 1px solid black;
+    width: 425px;
 } 
 
 #threeColumns .column1 h2 {
@@ -452,11 +467,13 @@ aside.box h2 {
 }
 
 #threeColumns .column1 p {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 300;
-	font-size: 15px;
+	font-family: 'Fugaz One', cursive;
+	font-weight: bold;
+	font-size: 50px;
 	line-height: 1.5;
 	width: 70%;	
+	text-align: center;
+	color: white;
 }
 
 #threeColumns .column1 button {
@@ -474,31 +491,41 @@ aside.box h2 {
 	border-radius: 5px;
 	box-shadow: 0 2px #969696;
 }
+
+
+.IQ {
+	margin: 12px 0px 0 90px;
+}
+
+a:hover {
+    color: black;
+
 /***********Footer***********/
 
 footer {
-	background-color: #1c1c1b;
+	background-color: #ffffff;
     min-height: 150px;
     padding: 24px 0px 0px 50px;
     display: flex;
+    border-top: 2px solid #000;
 }
 
 footer img {
 	width: 220px;
     height: 60px;
-    margin: 23px 0px 0px 60px; 
+    margin: 23px 0px 0px 100px;
 }
 
 footer p {
-	margin: 95px 0px 10px 330px;
+	margin: 95px 0px 10px 309px;
 	font-size: 12px;
-	color: white;
+	color: #000;
 }
 
 footer ul li,
 footer h5 {
 	list-style: none;
-	color: white;	
+	color: #000;	
 }
 
 footer ul li {
@@ -517,7 +544,7 @@ footer h5 {
 }
 
 footer div{
-	margin: 28px 0px 0px 415px;
+	margin: 28px 0px 0px 340px;
 }
 
 

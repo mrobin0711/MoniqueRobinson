@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai|Padauk');
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One');
+
+/*********HEADER*************/
+header {
+  background-color: #ffffff;
+  border-bottom: 2px solid #000;
+  height: auto;
+  overflow: hidden;
+  padding: 15px 0px 15px 0px;
+  margin-bottom: 0px;
+}
+
+header img {
+  padding: 0px 25px;
+}
+
+header nav {
+  color: #000;
+  margin-top: 60px;
+  margin-left: 25px;
+  padding-top: 6px;
+  display: none;
+}
+
+header nav ul li {
+  display: inline-block;
+  padding-bottom: 15px;
+}
+
+header nav ul li.navTitle {
+  text-transform: uppercase;
+  font-weight: 300;
+  list-style: none;
+
+}
+
+
+.hamburgerMenu {
+  float: right;
+  width: 50px;
+  padding-right: 25px;
+  padding-top: 4px;
+  margin-top: 0px;
+  position: static;
+}
+
+.hamburgerMenu hr {
+  border: 2px solid #ffffff;
+  margin-bottom: -16px;
+
+}
+
+
+
+/*********FOOTER*************/
+
+
+footer {
+  font-family: 'Padauk', sans-serif;
+  background-color: #ffffff;
+    min-height: 150px;
+    padding: 24px 0px 0px 50px;
+
+}
+
+footer img {
+  width: 220px;
+    height: 60px;
+    margin: 5px 0px 0px 134px; 
+}
+
+footer p {
+  font-size: 12px;
+  color: #000;
+  margin: 2px 0px 5px 179px;
+}
+
+footer ul li,
+footer h5 {
+  list-style: none;
+  color: #000;  
+}
+
+footer ul {
+  margin-left: 171px;
+} 
+
+footer ul li {
+  display: inline;
+  margin-right: 8px;
+}
+
+footer h5 {
+  display: none;
+}
+
+
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+/*********Header*************/
+header {
+  padding: 15px 0px 15px 0px;
+}
+
+header a {
+  color: #db5587;
+}
+
+header img {
+  padding: 10px 0px 0px 569px;
+  
+}
+
+.hamburgerMenu {
+  display: none;
+  }
+
+header nav {
+  color: #000;
+  margin-right: 50px;
+  margin-top: 20px;
+  padding-top: 6px;
+  display: inline;
+
+}
+
+header ul {
+    margin: 20px 0 -30px 383px;
+}
+header nav ul li {
+  padding-right: 70px;
+}
+
+header nav ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+header nav ul li.navTitle {
+  text-transform: uppercase;
+  font-family: 'Fugaz One', cursive;
+  font-weight: 300;
+  list-style: none;
+
+}
+
+/********Gallery*************/
+body{
+  
+  float: none;
+  margin: auto; 
+}
+
+#latest {  
+    max-width: 900px;
+    margin: 1rem 0;
+    padding-left: 266px;
+    column-count: 3;
+    column-gap: 3rem;
+    column-width: 33.33333333333333%;
+}
+
+.tiles {
+  transform: scale(1);
+}
+
+.tiles img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  
+}
+
+ h1 {
+  font-family: 'Fugaz One', cursive;
+  font-size: 43px;
+  color: #000;
+  padding-bottom: 33px;
+  margin: 33px 0 0 100px;
+ }
+/*********FOOTER*************/
+
+footer {
+  background-color: #ffffff;
+  min-height: 150px;
+  padding: 24px 0px 0px 50px;
+  display: flex;
+  border-top: 2px solid #000;
+}
+
+footer img {
+  width: 220px;
+    height: 60px;
+    margin: 23px 0px 0px 100px;
+}
+
+footer p {
+  margin: 95px 0px 10px 309px;
+  font-size: 12px;
+  color: #000;
+}
+
+footer ul li,
+footer h5 {
+  list-style: none;
+  color: #000;  
+}
+
+footer ul li {
+  display: inline;
+  margin-right: 8px;
+}
+footer ul {
+  margin-left: 0px;
+}
+
+footer h5 {
+  font-size: 21px;
+  font-weight: 300;
+  display: flex;
+  font-family: 'Fugaz One', cursive;
+}
+
+footer div{
+  margin: 28px 0px 0px 340px;
