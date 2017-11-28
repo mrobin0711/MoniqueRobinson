@@ -4,7 +4,6 @@
 
 /************************HEADER****************/
 
-
 header {
   background-color: #ffffff;
   border-bottom: 2px solid #000;
@@ -30,15 +29,6 @@ header nav ul li {
   padding-bottom: 15px;
 }
 
-header nav ul li.navTitle {
-  text-transform: uppercase;
-  font-family: 'Fugaz One', cursive;
-  font-weight: 300;
-  list-style: none;
-  color: #000;
-  font-size: 14px;
-  padding-right: 30px;
-}
 
 a {
   color: #000;
@@ -50,6 +40,15 @@ a:hover {
   color: black;
 }
 
+header nav ul li.navTitle {
+  text-transform: uppercase;
+  font-family: 'Fugaz One', cursive;
+  font-weight: 300;
+  list-style: none;
+  color: #000;
+  font-size: 14px;
+  padding-right: 30px;
+}
 
 .hamburgerMenu {
   float: right;
@@ -75,6 +74,7 @@ body{
   text-align: center;
   background-color: #f8f6f0;
 }
+
 h1{
   font-family: 'Fugaz One', cursive;
   font-weight: 300;
@@ -84,20 +84,8 @@ h1{
   background-color: #000;
   color: #fff;
 }
-.question{
-  font-size: 30px;
-  margin-bottom: 10px;
-}
-.answers {
-  margin-bottom: 20px;
-  text-align: left;
-  display: inline-block;
-}
-.answers label{
-  display: block;
-  margin-bottom: 10px;
-}
-button{
+
+button {
   font-family: 'Work Sans', sans-serif;
   font-size: 22px;
   font-weight: bold;
@@ -110,8 +98,25 @@ button{
   margin-bottom: 20px;
   margin-top: 10px;
 }
+
 button:hover{
     background-color: #333333;
+}
+
+.question{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.answers {
+  margin-bottom: 20px;
+  text-align: left;
+  display: inline-block;
+}
+
+.answers label{
+  display: block;
+  margin-bottom: 10px;
 }
 
 
@@ -124,10 +129,12 @@ button:hover{
   opacity: 0;
   transition: opacity 0.5s;
 }
+
 .active-slide{
   opacity: 1;
   z-index: 2;
 }
+
 .quiz-container{
   position: relative;
   height: 200px;
@@ -185,4 +192,4 @@ header nav ul li.navTitle {
 
 .hamburgerMenu {
   display: none;
-  }
+}

@@ -36,6 +36,16 @@ header nav ul li {
 	padding-bottom: 15px;
 }
 
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
 header nav ul li.navTitle {
 	text-transform: uppercase;
 	font-family: 'Fugaz One', cursive;
@@ -47,6 +57,11 @@ header nav ul li.navTitle {
 	margin-left: 20px;
 }
 
+.hamburgerMenu hr {
+	border: 2px solid #000;
+	margin-bottom: -16px;
+
+}
 
 
 .hamburgerMenu {
@@ -57,22 +72,6 @@ header nav ul li.navTitle {
     margin-top: 32px;
     position: static;
 }
-
-.hamburgerMenu hr {
-	border: 2px solid #000;
-	margin-bottom: -16px;
-
-}
-a {
-  color: #000;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-  color: black;
-}
-
 
 /****************body************/
 
@@ -257,9 +256,6 @@ header img {
 	
 }
 
-.hamburgerMenu {
-	display: none;
-	}
 
 header nav {
 	color: #000;
@@ -283,6 +279,10 @@ header nav ul li a {
 	text-decoration: none;
 }
 
+a:hover {
+	text-decoration: underline;
+}
+
 header nav ul li.navTitle {
 	text-transform: uppercase;
 	font-family: 'Fugaz One', cursive;
@@ -291,8 +291,9 @@ header nav ul li.navTitle {
 
 }
 
-a:hover {
-	text-decoration: underline;
+
+.hamburgerMenu {
+	display: none;
 }
 
 /*********************Body BEGIN*******************/
@@ -403,10 +404,7 @@ span {
     border-radius: 10px;
 	margin-left: 0px;
 
-
 }
-
-
 
 
 /*********************Body END*********************/
