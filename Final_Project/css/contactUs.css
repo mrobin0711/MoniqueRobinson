@@ -11,69 +11,74 @@
 
 /********Header********/
 header {
-	background-color: #1c1c1b;
-	border-bottom: 2px solid #44e9e6;
+	background-color: #ffffff;
+	border-bottom: 2px solid #000;
 	height: auto;
 	overflow: hidden;
 	padding: 15px 0px 15px 0px;
-	margin-bottom: 18px;
+	margin-bottom: 0px;
 }
-
 
 header img {
-	padding: 0px 60px;
-	float: left;
+	padding: 0px 25px;
 }
 
-
 header nav {
-	color: white;
-	margin: 15px 50px 0px 25px;
+	color: #000;
+	margin-top: 25px;
+	margin-left: 70px;
 	padding-top: 6px;
 	display: none;
 }
 
 header nav ul li {
+	display: inline-block;
 	padding-bottom: 15px;
-	float: left;
-	padding-right: 25px;
+}
+
+header nav ul li.navTitle {
 	text-transform: uppercase;
+	font-family: 'Fugaz One', cursive;
 	font-weight: 300;
 	list-style: none;
-	font-family: 'Fugaz One', cursive;
-	display: inline-block;
+	color: #000;
+	font-size: 14px;
+	padding-right: 30px;
+	margin-left: 20px;
 }
 
 
-header nav ul li a {
-	color: white;
-	text-decoration: none;
-}
 
 .hamburgerMenu {
 	float: right;
     width: 50px;
     padding-right: 19px;
-    padding-top: 4px;
-    margin-right: 40px;
-    margin-top: 40px;
+    padding-top: 14px;
+    margin-top: 32px;
     position: static;
 }
 
 .hamburgerMenu hr {
-	border: 2px solid #ffffff;
+	border: 2px solid #000;
 	margin-bottom: -16px;
 
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: black;
 }
 
 
 /****************body************/
-body {
-	background-color: #1c1c1b;
-}
+
 
 hr {
-	border: 1px solid #db5587;
+	border: 1px solid red;
 }
 
 
@@ -86,7 +91,7 @@ p {
 
 }
 span {
-	color: #db5587;
+	color: red;
 	padding-right: 10px;
 }
 
@@ -142,7 +147,7 @@ span {
 	display: inline-block;
 	border: 1px solid gray;
 	padding-bottom: 10px;
-	margin: 0px 88px 22px 90px;
+	margin: 20px 88px 22px 90px;
 	background-color: #dbdbdb;
 }
 
@@ -183,10 +188,10 @@ span {
 
 
 footer {
-	background-color: #1c1c1b;
+	background-color: #ffffff;
     min-height: 150px;
-    padding: 0px 0px 0px 28px;
-    border-top: 2px solid #44e9e6;
+    padding: 0px 0px 0px 42px;
+    border-top: 2px solid #000;
 }
 
 footer img {
@@ -198,13 +203,13 @@ footer img {
 footer p {
 	margin: 35px 0px 15px 287px;
 	font-size: 12px;
-	color: white;
+	color: #000;
 }
 
 footer ul li,
 footer h5 {
 	list-style: none;
-	color: white;	
+	color: #000;	
 }
 
 footer ul li {
@@ -224,6 +229,12 @@ footer div {
 	margin: 0px 0px 15px 217px;
 }
 
+footer ul li i:hover {
+  color: black;
+  text-decoration: none;
+}
+
+
 /**********************************************
 ***********************************************
 **********************************************/
@@ -235,51 +246,57 @@ footer div {
 
 header {
 	padding: 15px 0px 15px 0px;
-	
+}
+
+header a {
+	color: #db5587;
 }
 
 header img {
-	padding: 0px 75px;
+	padding: 10px 0px 0px 569px;
 	
-}
-header nav {
-	color: white;
-	float: right;
-	margin: 18px 50px 0px 25px;
-	padding-top: 6px;
-	display: inline;
-	font-size: 14px;
-}
-
-header nav ul li {
-	padding-bottom: 15px;
-	float: left;
-	padding-right: 25px;
-	text-transform: uppercase;
-	font-weight: 300;
-	list-style: none;
-	font-family: 'Fugaz One', cursive;
-}
-
-
-header nav ul li a {
-	color: white;
-	text-decoration: none;
 }
 
 .hamburgerMenu {
-	display: none;  
+	display: none;
+	}
+
+header nav {
+	color: #000;
+	margin-right: 50px;
+	margin-top: 20px;
+	padding-top: 6px;
+	display: inline;
+
 }
 
-.hamburgerMenu hr {
-	border: 2px solid #ffffff;
-	margin-bottom: -16px;
+header ul {
+    margin: 20px 0 0px 383px;
+}
+header nav ul li {
+	padding-right: 70px;
+	font-size: 14px;
+}
+
+header nav ul li a {
+	color: #000;
+	text-decoration: none;
+}
+
+header nav ul li.navTitle {
+	text-transform: uppercase;
+	font-family: 'Fugaz One', cursive;
+	font-weight: 300;
+	list-style: none;
 
 }
+
+a:hover {
+	text-decoration: underline;
+}
+
 /*********************Body BEGIN*******************/
-
-
-
+ 
 h1 {
 	font-family: 'Fugaz One', cursive;
 	margin-top: 30px;
@@ -294,7 +311,7 @@ p {
 
 }
 span {
-	color: #db5587;
+	color: black;
 	padding-right: 10px;
 }
 
@@ -356,9 +373,9 @@ span {
 
 #entire {
 	display: flex;
-	border: 1px solid gray;
+	border: 10px solid black;
 	padding-bottom: 10px;
-	margin: 0px 88px 22px 90px;
+	margin: 20px 88px 22px 90px;
 	background-color: #dbdbdb;
 }
 
@@ -399,11 +416,11 @@ span {
 /**********************FOOTER**********************/
 
 footer {
-	background-color: #1c1c1b;
+	background-color: white;
     min-height: 150px;
     padding: 0px 0px 0px 28px;
     display: flex;
-    border-top: 2px solid #44e9e6;
+    border-top: 2px solid #000;
 }
 
 footer img {
@@ -415,13 +432,13 @@ footer img {
 footer p {
 	margin: 144px -45px 15px 345px;
 	font-size: 12px;
-	color: white;
+	color: #000;
 }
 
 footer ul li,
 footer h5 {
 	list-style: none;
-	color: white;	
+	color: black;	
 }
 
 footer ul li {
@@ -445,3 +462,7 @@ footer div{
 	margin: 28px 0px 0px 415px;
 }
 
+footer ul li i:hover {
+  color: black;
+  text-decoration: none;
+}

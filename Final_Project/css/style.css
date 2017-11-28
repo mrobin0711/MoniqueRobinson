@@ -2,166 +2,216 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo+Bhai|Padauk');
 @import url('https://fonts.googleapis.com/css?family=Fugaz+One');
 
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
 
 header {
-	background-color: #ffffff;
-	border-bottom: 2px solid #000;
-	height: auto;
-	overflow: hidden;
-	padding: 15px 0px 15px 0px;
-	margin-bottom: 0px;
+  background-color: #ffffff;
+  border-bottom: 2px solid #000;
+  height: auto;
+  overflow: hidden;
+  margin-bottom: 7px;
 }
 
 header img {
-	padding: 0px 25px;
+  padding: 10px 25px;
+  float: left;
 }
 
 header nav {
-	color: #000;
-	margin-top: 60px;
-	margin-left: 25px;
-	padding-top: 6px;
-	display: none;
+  margin-top: 0px;
+  margin-left: 85px;
+  padding-top: 6px;
+  display: none;
+  float: left;
 }
 
 header nav ul li {
-	display: inline-block;
-	padding-bottom: 15px;
+  display: inline-block;
+  padding-bottom: 15px;
 }
 
 header nav ul li.navTitle {
-	text-transform: uppercase;
-	font-weight: 300;
-	list-style: none;
+  text-transform: uppercase;
+  font-family: 'Fugaz One', cursive;
+  font-weight: 300;
+  list-style: none;
+  color: #000;
+  font-size: 14px;
+  padding-right: 28px;
+  padding-top: 5px;
+}
 
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: black;
 }
 
 
 .hamburgerMenu {
-	float: right;
-	width: 50px;
-	padding-right: 25px;
-	padding-top: 4px;
-	margin-top: 0px;
-	position: static;
+  float: right;
+  width: 50px;
+  margin-top: 27px;
+ 
+}
+header hr {
+  border: 2px solid #000;
+  margin-bottom: 2px;
+  margin: 5px 5px 0px 0px;
 }
 
-.hamburgerMenu hr {
-	border: 2px solid #ffffff;
-	margin-bottom: -16px;
+/***********BoxRelease***********/
 
-}
-
-/***********Hero***********/
-
-#hero {
+#boxRelease {
 	background-image: url("../images/home.png");
 	background-size: cover;
 	background-position: center;
 	height: 230px;
 	width: 100%;
 	overflow: hidden;
-	padding: 25px;
-}
-
-
-aside.box {
-	background: rgba(255,255,255,0.75);
-	max-height: 200px;
-	max-width: 400px;
-	float: left;
 	box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
-	font-family: 'Source Sans Pro', sans-serif;
-	padding: 30px;
 }
 
-aside.box h2 {
-	font-weight: 700;
-}
 
-aside.box p {
-	font-weight: 300;
-	font-size: 15px;
-	line-height: 1.5;
-	width: 100%;
-}
-aside.box p span {
-	display: none;
-
-}
-
-aside.box button {
-	font-family: 'Oswald', sans-serif;
-	color: black;
-	background-color: #FFFF00;
-	font-weight: 700;
-	font-size: 18px;
-	width: 100%;
-	padding: 5px 0px;
-	margin-top: 20px;
-	border: 0;
-	outline: 0;
-	text-transform: uppercase;
-	border-radius: 5px;
-	box-shadow: 0 2px #cccb2c;
-}
 
 /***********Three Columns***********/
+#threeColumns aside.box {
+  /*background: rgba(170,95,152,0.75);*/
+  height: auto;
+  max-height: 95px;
+  max-width: 132px;
+  float: right;
+  box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+  padding: 0px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.column1 {
+  background-image: url("../images/wheatairforce.jpg");
+  background-size: 496px;
+  background-position: center;
+
+}
+
+.column2 {
+  background-color: black;
+}
+
+.column3 {
+  background-image: url("../images/yeezyboost350.jpg");
+  background-size: 507px;
+  background-position: center;
+
+}
+
+.IQ {
+  margin: 40px 0px 0 103px
+}
 
 #threeColumns {
-	padding-top: 25px;
-	padding-bottom: 25px;
-	width: auto;
-	background-color: darkgray;
-	margin-top: 50px;
-	height: 400px;
-
+  display: inline;
 } 
 
-#threeColumns .column1 {
-	padding-bottom: 50px;
+#threeColumns .column1,
+#threeColumns .column2,
+#threeColumns .column3 {
+  margin: 25px 88px;
+  padding-bottom: 154px;
+  border: 1px solid black;
+  width: 556px;
+  height: 195px;
+  box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
 } 
 
-#threeColumns .column1 h2 {
-	font-family: 'Merriweather', serif;
-	font-weight: 700;
-	font-size: 18px;
+#threeColumns .column1 h2,
+#threeColumns .column3 h2  {
+  font-family: 'Fugaz One', cursive;
+  font-weight: 700;
+  font-size: 18px;
+  color: #000;
 }
 
-#threeColumns .column1 p {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 300;
-	font-size: 15px;
-	line-height: 1.5;
-	width: 70%;	
+#threeColumns .column2 p {
+  font-family: 'Fugaz One', cursive;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 1.5;
+  width: 70%;
+  text-align: center;
+  color: white;
+  margin-left: 10px;
+  display: block;
+  padding: 5px;
+
 }
 
-#threeColumns .column1 button {
-	font-family: 'Oswald', sans-serif;
-	color: black;
-	background-color: #c6c6c6;
-	font-weight: 700;
-	font-size: 18px;
-	width: 100%;
-	padding: 5px 0px;
-	margin-top: 20px;
-	border: 0;
-	outline: 0;
-	text-transform: uppercase;
-	border-radius: 5px;
-	box-shadow: 0 2px #969696;
+/**************BLOG***********/
+
+.rightSide {
+  display: none;
 }
+
+h1 {
+  font-family: 'Fugaz One', cursive;
+  font-size: 40px;
+  color: #000;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+article span:after {
+  content: "|";
+  padding: 10px;
+  color: #000;
+}
+
+article span {
+  color: #000;
+}
+
+#articles.leftSide button {
+  font-family: 'Padauk', sans-serif;
+    color: #ffffff;
+    background-color: #000;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 9px 14px;
+    margin-top: 5px;
+    border: 0;
+    outline: 0;
+    text-transform: lowercase;
+    border-radius: 10px;
+}
+
+article h3 {
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 30px;
+}
+
+article hr {
+
+  border: 1px solid red;
+}
+
+article img {
+  margin-bottom: 15px;
+}
+
+#articles.leftSide h1 span {
+  text-decoration: underline red;
+}
+/***********Footer***********/
 
 footer {
 	font-family: 'Padauk', sans-serif;
 	background-color: #ffffff;
-    min-height: 150px;
-    padding: 24px 0px 0px 50px;
+  min-height: 150px;
+  padding: 24px 0px 0px 125px;
+  border-top: 2px solid black;
 
 }
 
@@ -211,14 +261,12 @@ footer h5 {
 
 header {
 	padding: 15px 0px 15px 0px;
-}
-
-header a {
-	color: #db5587;
+  margin-bottom: 0;
 }
 
 header img {
 	padding: 10px 0px 0px 569px;
+	float: none;
 	
 }
 
@@ -227,20 +275,15 @@ header img {
 	}
 
 header nav {
-	color: #000;
-	margin-right: 50px;
-	margin-top: 20px;
-	padding-top: 6px;
+  margin: 20px 50px 25px 58px;
+	padding-top: 0px;
 	display: inline;
-
 }
 
 header ul {
-    margin: 20px 0 -30px 383px;
+    margin: 20px 0 -30px 400px;
 }
-header nav ul li {
-	padding-right: 70px;
-}
+
 
 header nav ul li a {
 	color: #000;
@@ -256,16 +299,121 @@ header nav ul li.navTitle {
 }
 
 
+/**********BoxRelease***********/
+
+#boxRelease {
+	height: 570px;
+	overflow: visible;
+}
+
+
+/***********Three Columns***********/
+
+#threeColumns aside.box {
+	/*background: rgba(170,95,152,0.75);*/
+	height: auto;
+	max-height: 95px;
+  max-width: 132px;
+	float: right;
+	box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+	padding: 0px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+a:hover {
+    color: black;
+}
+
+.column1 {
+	background-image: url("../images/wheatairforce.jpg");
+	background-size: 462px;
+	background-position: center;
+
+}
+
+.column2 {
+	background-color: black;
+}
+
+.column3 {
+	background-image: url("../images/yeezyboost350.jpg");
+	background-size: 468px;
+	background-position: center;
+
+}
+
+.IQ {
+	margin: 12px 0px 0 90px;
+}
+
+#threeColumns {
+	display: flex;
+} 
+
+#threeColumns .column1,
+#threeColumns .column2,
+#threeColumns .column3 {
+	margin: 25px 27px;
+	padding-bottom: 154px;
+  border: 1px solid black;
+  width: 425px;
+  box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+} 
+
+#threeColumns .column1 h2,
+#threeColumns .column3 h2  {
+	font-family: 'Fugaz One', cursive;
+	font-weight: 700;
+	font-size: 18px;
+	color: #000;
+}
+
+#threeColumns .column2 p {
+	font-family: 'Fugaz One', cursive;
+	font-weight: bold;
+	font-size: 45px;
+	line-height: 1.5;
+	width: 70%;	
+	text-align: center;
+	color: white;
+  margin-left: 7px;
+  display: inline-block;
+}
+
 /*****************Blog*****************/
+.blog	 {
+background: url("../images/blogbk.png") no-repeat bottom center;	
+background-size: cover;
+position: relative;
+background-attachment: fixed;
+
+}
 
 h1 {
 	font-family: 'Fugaz One', cursive;
 	font-size: 60px;
-	color: #000;
+	color: #ffffff;
 	padding-bottom: 37px;
-
+  padding-top: 0px;
 
 }
+
+h3 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+h4 {
+  font-size: 32px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-family: 'Fugaz One', cursive; 
+
+}
+
 .blog:after {
      content: "";
      display: block;
@@ -273,7 +421,7 @@ h1 {
 } 
 
 section {
-  padding: 75px 362px 56px 100px;
+  padding: 75px 150px 0px 100px;
   background-color: #ffffff;
 }
 
@@ -319,14 +467,18 @@ article div {
 article img {
 	max-width: 710px; 
 	margin-top: 11px;
+	border: 4px solid white;
 }
 
 article span:after {
 	content: "|";
 	padding: 10px;
+	color: white;
 }
 
-
+article span {
+	color: white;
+}
 article h3 {
 	font-family: 'Baloo Bhai', cursive;
 	font-size: 30px;
@@ -341,14 +493,13 @@ article p {
 
 hr {
     width: 100%;
-    background: #db5587;
     margin: 40px 0px 50px 0px;
-    border: 1px solid #db5587;
+    border: 1px solid red;
 }
 
 aside {
     width: 240px;
-    color: #000;
+    color: #ffffff;
 }
 
 
@@ -386,14 +537,8 @@ aside {
 #about img {
 	max-width: 241px;
 	margin-bottom: 10px;
+	border: 2px solid white;
 }
-
-h3 {
-  font-size: 40px;
-  font-weight: 600;
-  color: #000;
-}
-
 
 
 .blog {
@@ -407,105 +552,51 @@ h3 {
 
 .rightSide {
   float: right;
-  margin-top: 66px;
+  margin-top: 40px;
   padding-left: 160px;
+  display: inline;
 }
 
-h4 {
-  font-size: 32px;
-  font-weight: 400;
-  color: #000;
-  margin-bottom: 20px;
-  font-family: 'Fugaz One', cursive; 
-
+#articles.leftSide h1 span {
+	text-decoration: underline red;
 }
 
+.inputGroup {
+  margin-bottom: 10px;
+  background-image: url("../images/subscribe.png");
+  min-height: 287px;
+  min-width: 317px;
+  display: inline-block;
+}
+ input {
+  margin-left: 53px;
+ }
 
-
-/***********Hero***********/
-
-#hero {
-	height: 570px;
-	overflow: visible;
+input,
+span button {
+  margin-top: 200px;
 }
 
-aside.box {
-	background: rgba(170,95,152,0.75);
-	height: auto;
-	max-height: 70px;
-    max-width: 150px;
-	float: left;
-	box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
-	font-family: 'Source Sans Pro', sans-serif;
-	padding: 16px;
-	text-align: center;
+span button {
+  font-family: 'Padauk', sans-serif;
+  color: #ffffff;
+  background-color: #000;
+  font-weight: 700;
+  font-size: 17px;
+  padding: 3px 11px;
+  margin: 2px 0px 0 123px;
+  border: 0;
+  outline: 0;
+  text-transform: lowercase;
+  border-radius: 10px;
 }
-
-aside.box h2 {
-	font-weight: 700;
-	font-size: 30px;
-}
-
-
-/***********Three Columns***********/
-
-#threeColumns {
-	display: flex;
-} 
-
-#threeColumns .column1 {
-	margin: 0px 30px;
-	padding-bottom: 154px;
-    border: 1px solid black;
-    width: 425px;
-} 
-
-#threeColumns .column1 h2 {
-	font-family: 'Merriweather', serif;
-	font-weight: 700;
-	font-size: 18px;
-}
-
-#threeColumns .column1 p {
-	font-family: 'Fugaz One', cursive;
-	font-weight: bold;
-	font-size: 50px;
-	line-height: 1.5;
-	width: 70%;	
-	text-align: center;
-	color: white;
-}
-
-#threeColumns .column1 button {
-	font-family: 'Oswald', sans-serif;
-	color: black;
-	background-color: #c6c6c6;
-	font-weight: 700;
-	font-size: 18px;
-	width: 100%;
-	padding: 5px 0px;
-	margin-top: 20px;
-	border: 0;
-	outline: 0;
-	text-transform: uppercase;
-	border-radius: 5px;
-	box-shadow: 0 2px #969696;
-}
-
-
-.IQ {
-	margin: 12px 0px 0 90px;
-}
-
-a:hover {
-    color: black;
 
 /***********Footer***********/
 
 footer {
-	background-color: #ffffff;
+	background-color: white;
     min-height: 150px;
-    padding: 24px 0px 0px 50px;
+    padding: 0px 0px 0px 28px;
     display: flex;
     border-top: 2px solid #000;
 }
@@ -513,11 +604,11 @@ footer {
 footer img {
 	width: 220px;
     height: 60px;
-    margin: 23px 0px 0px 100px;
+    margin: 55px 0px 0px 60px 
 }
 
 footer p {
-	margin: 95px 0px 10px 309px;
+	margin: 144px -45px 15px 374px;
 	font-size: 12px;
 	color: #000;
 }
@@ -525,7 +616,7 @@ footer p {
 footer ul li,
 footer h5 {
 	list-style: none;
-	color: #000;	
+	color: black;	
 }
 
 footer ul li {
@@ -534,6 +625,13 @@ footer ul li {
 }
 footer ul {
 	margin-left: 0px;
+  text-decoration: none;
+
+}
+
+footer ul li i:hover {
+  color: black;
+  text-decoration: none;
 }
 
 footer h5 {
@@ -541,10 +639,11 @@ footer h5 {
     font-weight: 300;
     display: flex;
     font-family: 'Fugaz One', cursive;
+    margin-bottom: 5px;
+    margin-top: 20px;
 }
 
 footer div{
-	margin: 28px 0px 0px 340px;
+	margin: 28px 0px 0px 478px;
 }
-
 

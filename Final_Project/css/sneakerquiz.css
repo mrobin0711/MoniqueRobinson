@@ -1,0 +1,188 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:300,600);
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One');
+
+
+/************************HEADER****************/
+
+
+header {
+  background-color: #ffffff;
+  border-bottom: 2px solid #000;
+  height: auto;
+  overflow: hidden;
+  margin-bottom: 0px;
+}
+
+header img {
+  padding: 0px 25px;
+  float: left;
+}
+
+header nav {
+  margin-top: 60px;
+  margin-left: 25px;
+  padding-top: 6px;
+  display: none;
+}
+
+header nav ul li {
+  display: inline-block;
+  padding-bottom: 15px;
+}
+
+header nav ul li.navTitle {
+  text-transform: uppercase;
+  font-family: 'Fugaz One', cursive;
+  font-weight: 300;
+  list-style: none;
+  color: #000;
+  font-size: 14px;
+  padding-right: 30px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+
+.hamburgerMenu {
+  float: right;
+  width: 50px;
+  padding-right: 25px;
+  padding-top: 4px;
+  margin-top: 8px;
+  position: static;
+}
+
+.hamburgerMenu hr {
+  border: 2px solid #000;
+
+}
+
+/************************BODY****************/
+
+body{
+  font-size: 20px;
+  font-family: 'Work Sans', sans-serif;
+  color: #333;
+  font-weight: 300;
+  text-align: center;
+  background-color: #f8f6f0;
+}
+h1{
+  font-family: 'Fugaz One', cursive;
+  font-weight: 300;
+  margin: 0px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: #000;
+  color: #fff;
+}
+.question{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.answers {
+  margin-bottom: 20px;
+  text-align: left;
+  display: inline-block;
+}
+.answers label{
+  display: block;
+  margin-bottom: 10px;
+}
+button{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  background-color: #000;
+  color: #fff;
+  border: 0px;
+  border-radius: 3px;
+  padding: 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+button:hover{
+    background-color: #333333;
+}
+
+
+.slide{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.active-slide{
+  opacity: 1;
+  z-index: 2;
+}
+.quiz-container{
+  position: relative;
+  height: 200px;
+  margin-top: 40px;
+}
+
+
+/******/
+/******/
+/******/
+/******/
+
+
+@media (min-width: 768px) {
+
+header img{
+  float: none;
+}  
+
+header {
+  padding: 15px 0px 15px 0px;
+}
+
+
+header nav {
+  margin-right: 50px;
+  margin-top: 20px;
+  padding-top: 6px;
+  display: inline;
+
+}
+
+header ul {
+    margin: 20px 0 -30px 0px;
+}
+header nav ul li {
+  padding-right: 70px;
+  font-size: 14px;
+}
+
+header nav ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+header nav ul li.navTitle {
+  text-transform: uppercase;
+  font-family: 'Fugaz One', cursive;
+  font-weight: 300;
+  list-style: none;
+}
+
+.hamburgerMenu {
+  display: none;
+  }

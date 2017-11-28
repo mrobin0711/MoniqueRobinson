@@ -1,6 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i');
 @import url('https://fonts.googleapis.com/css?family=Baloo+Bhai|Padauk');
 @import url('https://fonts.googleapis.com/css?family=Fugaz+One');
-@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
 
 * {
 	margin: 0;
@@ -8,107 +8,181 @@
 	box-sizing: border-box;
 }
 
-
-/********Header********/
 header {
-	background-color: #1c1c1b;
-	border-bottom: 2px solid #44e9e6;
-	height: auto;
-	overflow: hidden;
-	padding: 15px 0px 15px 0px;
-	margin-bottom: 18px;
+  background-color: #ffffff;
+  border-bottom: 2px solid #000;
+  height: auto;
+  overflow: hidden;
+  margin-bottom: 0px;
 }
-
 
 header img {
-	padding: 0px 60px;
-	float: left;
+  padding: 10px 25px;
+  float: left;
 }
 
-
 header nav {
-	color: white;
-	margin: 15px 50px 0px 25px;
-	padding-top: 6px;
-	display: none;
+  margin-top: 0px;
+  margin-left: 137px;
+  padding-top: 6px;
+  display: none;
+  float: left;
 }
 
 header nav ul li {
-	padding-bottom: 15px;
-	float: left;
-	padding-right: 25px;
-	text-transform: uppercase;
-	font-weight: 300;
-	list-style: none;
-	font-family: 'Fugaz One', cursive;
-	display: inline-block;
+  display: inline-block;
+  padding-bottom: 15px;
 }
 
-
-header nav ul li a {
-	color: white;
-	text-decoration: none;
+header nav ul li.navTitle {
+  text-transform: uppercase;
+  font-family: 'Fugaz One', cursive;
+  font-weight: 300;
+  list-style: none;
+  color: #000;
+  font-size: 14px;
+  padding-right: 28px;
+  padding-top: 5px;
 }
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
 
 .hamburgerMenu {
-	float: right;
-    width: 50px;
-    padding-right: 19px;
-    padding-top: 4px;
-    margin-right: 40px;
-    margin-top: 40px;
-    position: static;
+  float: right;
+  width: 50px;
+  margin-top: 27px;
+  margin-right: 35px;
+ 
+}
+header hr {
+  border: 2px solid #000;
+  margin-bottom: 2px;
+  margin: 5px 5px 0px 0px;
 }
 
-.hamburgerMenu hr {
-	border: 2px solid #ffffff;
-	margin-bottom: -16px;
+
+
+/***************************ENTIRE*****************************/
+
+#entire {
+	background: url("../images/smoke.jpg") no-repeat bottom center;	
+	background-size: cover;
+	position: relative;
+	background-attachment: fixed;
+}
+
+/****ID SLIDER*****/
+#slider img {
+	max-width: 768px;
+}
+
+/****CLASS MISSION*****/
+
+#mission {
+	margin-top: 55px;
+	min-height: 250px;
+}
+
+#mission p {
+	max-width: 1000px;
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
+    margin: 135px 0px -30px 52px;
 
 }
+
+/****CLASS midPage*****/
+ #midPage img {
+	max-width: 768px;
+ }
+
+
+/****ID QUOTE*****/
+ #quote{
+	min-height: 250px;
+	text-align: center;
+	color: white;
+ }
+#quote blockquote span {
+	color: red;
+	text-decoration: under
+}
+
+#quote blockquote {
+ 	max-width: 1000px;
+    font-weight: bold;
+    margin: 80px 0px 50px 6px;
+    font-size: 34px;
+ }
+
+.quoteEnd {
+	font-style: italic;
+}
+/*******/
+
 
 /*********FOOTER************/
 
 
+
 footer {
-	background-color: #1c1c1b;
+	font-family: 'Padauk', sans-serif;
+	background-color: #ffffff;
     min-height: 150px;
-    padding: 0px 0px 0px 28px;
-    border-top: 2px solid #44e9e6;
+    padding: 24px 0px 0px 143px;
+
 }
 
 footer img {
 	width: 220px;
     height: 60px;
-    margin: 25px 0px -22px 235px
+    margin: 5px 0px 0px 134px; 
 }
 
 footer p {
-	margin: 35px 0px 15px 287px;
 	font-size: 12px;
-	color: white;
+	color: #000;
+	margin: 2px 0px 5px 179px;
 }
 
 footer ul li,
 footer h5 {
 	list-style: none;
-	color: white;	
+	color: #000;	
 }
+
+footer ul {
+	margin-left: 171px;
+} 
 
 footer ul li {
 	display: inline;
 	margin-right: 8px;
 }
-footer ul {
-	margin-left: 50px;
-}
 
 footer h5 {
 	display: none;
-
 }
 
-footer div {
-	margin: 0px 0px 15px 217px;
+footer ul li i {
+	color: black;
+}
+
+.icon-twitter-sign,
+.icon-pinterest-sign,
+.icon-facebook-sign,
+.icon-instagram {
+	text-decoration: none;
 }
 
 /**********************************************
@@ -120,112 +194,142 @@ footer div {
 /************HEADER************/
 
 
-header {
-	padding: 15px 0px 15px 0px;
-	
-}
 
 header img {
-	padding: 0px 75px;
+	padding: 30px 0px 0px 453px;
 	
-}
-header nav {
-	color: white;
-	float: right;
-	margin: 18px 50px 0px 25px;
-	padding-top: 6px;
-	display: inline;
-	font-size: 14px;
-}
-
-header nav ul li {
-	padding-bottom: 15px;
-	float: left;
-	padding-right: 25px;
-	text-transform: uppercase;
-	font-weight: 300;
-	list-style: none;
-	font-family: 'Fugaz One', cursive;
-}
-
-
-header nav ul li a {
-	color: white;
-	text-decoration: none;
 }
 
 .hamburgerMenu {
-	display: none;  
+	display: none;
+	}
+
+header nav {
+	color: #000;
+	margin: 20px 50px 36px 79px;
+	padding-top: 6px;
+	display: inline;
+
 }
 
-.hamburgerMenu hr {
-	border: 2px solid #ffffff;
-	margin-bottom: -16px;
+header ul {
+    margin: 20px 0 -30px 261px;
+}
+header nav ul li {
+	padding-right: 70px;
+	font-size: 14px;
+}
+
+header nav ul li a {
+	color: #000;
+	text-decoration: none;
+}
+
+header nav ul li.navTitle {
+	text-transform: uppercase;
+	font-family: 'Fugaz One', cursive;
+	font-weight: 300;
+	list-style: none;
 
 }
-/**********************body**********************/
+
+a:hover {
+	text-decoration: underline;
+}
+
+/**********************ENTIRE**********************/
+
 body {
-	max-height: 1000px;
-	font-family: 'Slabo 27px', serif;
-	background: url(../images/6.jpg);
-    background-size: cover;
-    color: white;
+	width: 1200px;
+	margin: 0px 120px; 
 }
 
- div {
- 	text-align: center;
- 	height: 500px;
+#entire {
+	background: url("../images/smoke.jpg") no-repeat bottom center;	
+	background-size: cover;
+	position: relative;
+	background-attachment: fixed;
+}
+
+/****ID SLIDER*****/
+#slider img {
+	max-width: 1200px;
  }
 
- blockquote {
- 	max-width: 500px;
- 	font-weight: bold;
- 	margin: 150px 0 12px 467px;
- 	font-size: 19px;
+/****CLASS MISSION*****/
+
+#mission {
+	margin-top: 55px;
+	min-height: 250px;
+}
+
+#mission p {
+	max-width: 1000px;
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
+    margin: 135px 0px -30px 119px;
+
+}
+
+/****CLASS midPage*****/
+ #midPage img {
+	max-width: 1200px;
+ }
+
+
+/****ID QUOTE*****/
+ #quote{
+	min-height: 250px;
+	text-align: center;
+	color: white;
+ }
+#quote blockquote span {
+	color: red;
+	text-decoration: under
+}
+
+#quote blockquote {
+ 	max-width: 1000px;
+    font-weight: bold;
+    margin: 80px 0px 50px 100px;
+    font-size: 34px;
  }
 
 .quoteEnd {
 	font-style: italic;
 }
+/*******/
 
-span,
-.quoteEnd {
-	font-size: 15px;
-}
-
-.mission {
-	margin-top: 160px;
-	font-weight: bold;
-	font-size: 23px;
-}
 
 
 /**********************FOOTER**********************/
 
 footer {
-	background-color: #1c1c1b;
+	background-color: white;
     min-height: 150px;
-    padding: 0px 0px 0px 28px;
+    padding: 24px 0px 0px 47px;
     display: flex;
-    border-top: 2px solid #44e9e6;
+    border-top: 2px solid #000;
+    max-height: 250px;
 }
 
 footer img {
 	width: 220px;
     height: 60px;
-    margin: 55px 0px 0px 60px 
+    margin: 55px 0px 0px -50px;
 }
 
 footer p {
-	margin: 144px -45px 15px 345px;
+	margin: 144px -45px 15px 332px;
 	font-size: 12px;
-	color: white;
+	color: #000;
 }
 
 footer ul li,
 footer h5 {
 	list-style: none;
-	color: white;	
+	color: black;	
 }
 
 footer ul li {
@@ -235,6 +339,12 @@ footer ul li {
 footer ul {
 	margin-left: 0px;
 }
+
+footer ul li i:hover {
+  color: black;
+  text-decoration: none;
+}
+
 
 footer h5 {
 	font-size: 21px;
@@ -247,5 +357,12 @@ footer h5 {
 
 footer div{
 	margin: 28px 0px 0px 415px;
+}
+
+.icon-twitter-sign,
+.icon-pinterest-sign,
+.icon-facebook-sign,
+.icon-instagram {
+	text-decoration: none;
 }
 

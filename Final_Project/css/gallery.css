@@ -8,20 +8,19 @@ header {
   border-bottom: 2px solid #000;
   height: auto;
   overflow: hidden;
-  padding: 15px 0px 15px 0px;
   margin-bottom: 0px;
 }
 
 header img {
-  padding: 0px 25px;
+  padding: 10px 25px;
+  float: left;
 }
 
 header nav {
-  color: #000;
-  margin-top: 60px;
-  margin-left: 25px;
+  margin: 20px 50px 25px 79px;
   padding-top: 6px;
   display: none;
+  float: left;
 }
 
 header nav ul li {
@@ -31,28 +30,81 @@ header nav ul li {
 
 header nav ul li.navTitle {
   text-transform: uppercase;
+  font-family: 'Fugaz One', cursive;
   font-weight: 300;
   list-style: none;
+  color: #000;
+  font-size: 14px;
+  padding-right: 28px;
+  padding-top: 5px;
+}
 
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: black;
 }
 
 
 .hamburgerMenu {
   float: right;
   width: 50px;
-  padding-right: 25px;
-  padding-top: 4px;
-  margin-top: 0px;
-  position: static;
+  margin-top: 27px;
+  margin-right: 35px;
+ 
+}
+header hr {
+  border: 2px solid #000;
+  margin-bottom: 2px;
+  margin: 5px 5px 0px 0px;
+}
+/********Gallery*************/
+body{
+  
+  float: none;
+  margin: auto; 
 }
 
-.hamburgerMenu hr {
-  border: 2px solid #ffffff;
-  margin-bottom: -16px;
-
+#latest {  
+  max-width: 900px;
+  margin: 1rem 96px 1rem -161px;
+  padding-left: 266px;
+  column-count: 3;
+  column-gap: 3rem;
+  column-width: 33.33333333333333%;
 }
 
+.tiles {
+  transform: scale(1);
+}
 
+.tiles img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+  
+}
+
+ h1 {
+  font-family: 'Fugaz One', cursive;
+  font-size: 48px;
+  padding-bottom: 50px;
+  padding-top: 80px;
+  color: #000;
+  margin-left: 149px;
+}
+ 
+.middle {
+  background: url("../images/") no-repeat bottom center; 
+  background-size: cover;
+  margin-top: -10px;
+  margin-bottom: -17px;
+} 
 
 /*********FOOTER*************/
 
@@ -60,15 +112,16 @@ header nav ul li.navTitle {
 footer {
   font-family: 'Padauk', sans-serif;
   background-color: #ffffff;
-    min-height: 150px;
-    padding: 24px 0px 0px 50px;
+  min-height: 150px;
+  padding: 24px 0px 0px 143px;
+  border-top: 2px solid black;
 
 }
 
 footer img {
   width: 220px;
-    height: 60px;
-    margin: 5px 0px 0px 134px; 
+  height: 60px;
+  margin: 5px 0px 0px 134px; 
 }
 
 footer p {
@@ -96,6 +149,16 @@ footer h5 {
   display: none;
 }
 
+footer ul li i {
+  color: black;
+}
+
+.icon-twitter-sign,
+.icon-pinterest-sign,
+.icon-facebook-sign,
+.icon-instagram {
+  text-decoration: none;
+}
 
 /**********************************/
 /**********************************/
@@ -113,9 +176,6 @@ header {
   padding: 15px 0px 15px 0px;
 }
 
-header a {
-  color: #db5587;
-}
 
 header img {
   padding: 10px 0px 0px 569px;
@@ -140,6 +200,7 @@ header ul {
 }
 header nav ul li {
   padding-right: 70px;
+  font-size: 14px;
 }
 
 header nav ul li a {
@@ -155,6 +216,11 @@ header nav ul li.navTitle {
 
 }
 
+a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
 /********Gallery*************/
 body{
   
@@ -163,33 +229,43 @@ body{
 }
 
 #latest {  
-    max-width: 900px;
-    margin: 1rem 0;
-    padding-left: 266px;
-    column-count: 3;
-    column-gap: 3rem;
-    column-width: 33.33333333333333%;
+  max-width: 900px;
+  margin: 1rem 0;
+  padding-left: 266px;
+  column-count: 3;
+  column-gap: 3rem;
+  column-width: 33.33333333333333%;
 }
 
 .tiles {
   transform: scale(1);
+  box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
 }
 
 .tiles img {
-    max-width: 100%;
-    width: 100%;
-    height: auto;
-    margin-bottom: 1rem;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
   
 }
 
  h1 {
   font-family: 'Fugaz One', cursive;
-  font-size: 43px;
+  font-size: 60px;
+  padding-bottom: 50px;
+  padding-top: 80px;
   color: #000;
-  padding-bottom: 33px;
-  margin: 33px 0 0 100px;
- }
+  margin-left: 265px;
+}
+ 
+.middle {
+  background: url("../images/") no-repeat bottom center; 
+  background-size: cover;
+  margin-top: -10px;
+  margin-bottom: -17px;
+} 
+
 /*********FOOTER*************/
 
 footer {
@@ -198,6 +274,7 @@ footer {
   padding: 24px 0px 0px 50px;
   display: flex;
   border-top: 2px solid #000;
+  margin-top: 25px;
 }
 
 footer img {
@@ -225,6 +302,16 @@ footer ul li {
 footer ul {
   margin-left: 0px;
 }
+
+footer ul li i:hover {
+  color: black;
+  text-decoration: none;
+}
+
+footer ul li i {
+  color: #000;
+}
+
 
 footer h5 {
   font-size: 21px;
